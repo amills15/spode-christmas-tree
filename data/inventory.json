@@ -1,0 +1,709 @@
+{
+  "version": 5,
+  "description": "Master Spode Christmas Tree collection inventory. Place settings, serving pieces, Serving & Tableware, and Cookware & Kitchen Pieces verified through September 12, 2026.",
+  "items": [
+    {
+      "id": "dinner-plate",
+      "name": "10½″ Dinner Plate",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 13,
+      "origins": {
+        "Made in England": 10,
+        "Made in China": 3
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151824720_crop.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "10½″",
+      "capacity": ""
+    },
+    {
+      "id": "salad-dessert-plate",
+      "name": "8″ Salad / Dessert Plate",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 13,
+      "origins": {
+        "Made in England": 8,
+        "Made in China": 5
+      },
+      "image": "https://www.spode.com/media/catalog/product/0/9/092764300922_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "8″",
+      "capacity": ""
+    },
+    {
+      "id": "soup-plate",
+      "name": "9″ Soup Plate",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 10,
+      "origins": {
+        "Made in England": 8,
+        "Made in China": 2
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151824782_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "9″",
+      "capacity": ""
+    },
+    {
+      "id": "scalloped-dish",
+      "name": "8½″ Scalloped Dish",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 1,
+      "origins": {
+        "Made in England": 1
+      },
+      "image": "images/8-half-scalloped-dish.png",
+      "url": "https://www.ebay.com/",
+      "dimensions": "8½″",
+      "capacity": ""
+    },
+    {
+      "id": "bread-butter-plate",
+      "name": "6½″ Bread & Butter Plate",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 8,
+      "origins": {
+        "Made in England": 8
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151824768_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "6½″",
+      "capacity": ""
+    },
+    {
+      "id": "teacup",
+      "name": "Teacup",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 8,
+      "origins": {
+        "Made in England": 8
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151824867_main_1.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": "6.4 fl oz"
+    },
+    {
+      "id": "saucer",
+      "name": "Saucer",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 8,
+      "origins": {
+        "Made in England": 8
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151831063_crop.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "cafe-mug",
+      "name": "Café Mug",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 3,
+      "origins": {
+        "Made in China": 3
+      },
+      "image": "https://images.replacements.com/images/images1/china/S/P0000095690S000000323769T1.jpg",
+      "url": "https://www.replacements.com/",
+      "dimensions": "4″ high × 3½″ wide",
+      "capacity": ""
+    },
+    {
+      "id": "tom-jerry-mug",
+      "name": "Tom & Jerry Mug",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 4,
+      "origins": {
+        "Made in England": 4
+      },
+      "image": "https://images.replacements.com/images/images1/china/S/P0000095690S000000127183T1.jpg",
+      "url": "https://www.replacements.com/",
+      "dimensions": "3¼″ high × 3″ wide",
+      "capacity": ""
+    },
+    {
+      "id": "water-glass",
+      "name": "Water Glass",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 0,
+      "origins": {
+        "Origin not cataloged": 0
+      },
+      "image": "https://www.spode.com/media/catalog/product/9/2/92764339502_main.jpg",
+      "url": "https://www.spode.com/spode-christmas-tree-highball-glass-set-of-4",
+      "dimensions": "6″ high × 3″ wide",
+      "capacity": "15 oz"
+    },
+    {
+      "id": "stemmed-wine-glass",
+      "name": "Stemmed Wine Glass",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 12,
+      "origins": {
+        "Origin not cataloged": 12
+      },
+      "image": "https://images.replacements.com/images/images1/china/S/P0000095690S000000361555T1.jpg",
+      "url": "https://www.replacements.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "stemless-wine-glass",
+      "name": "Stemless Wine Glass",
+      "category": "place",
+      "subcategory": "Place Settings",
+      "qty": 3,
+      "origins": {
+        "Made in China": 3
+      },
+      "image": "https://www.spode.com/media/catalog/product/1/7/1701090_2.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": "19 oz"
+    },
+    {
+      "id": "9-serving-bowl",
+      "name": "9¾″ Serving Bowl",
+      "category": "serving",
+      "subcategory": "Bowls",
+      "qty": 1,
+      "origins": {
+        "Made in England": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151497030_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "10-scalloped-serving-bowl",
+      "name": "10″ Scalloped Serving Bowl",
+      "category": "serving",
+      "subcategory": "Bowls",
+      "qty": 2,
+      "origins": {
+        "Made in England": 2
+      },
+      "image": "images/10-scalloped-serving-bowl.png",
+      "url": "https://www.replacements.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "large-10-square-bowl",
+      "name": "Large 10″ Square Bowl",
+      "category": "serving",
+      "subcategory": "Bowls",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/74915156508_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "10″",
+      "capacity": ""
+    },
+    {
+      "id": "11-melamine-serving-bowl",
+      "name": "11″ Melamine Serving Bowl",
+      "category": "serving",
+      "subcategory": "Bowls",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151648845_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "11″",
+      "capacity": ""
+    },
+    {
+      "id": "7-stocking-dishes-set-of-2",
+      "name": "7″ Stocking Dishes, set of 2",
+      "category": "serving",
+      "subcategory": "Plates, Platters & Trays",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151497825_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "7″",
+      "capacity": ""
+    },
+    {
+      "id": "7-sculpted-hostess-plate",
+      "name": "7″ Sculpted Hostess Plate",
+      "category": "serving",
+      "subcategory": "Plates, Platters & Trays",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://images.replacements.com/images/images1/china/S/P0000095690S000000361555T1.jpg",
+      "url": "https://www.replacements.com/",
+      "dimensions": "7″",
+      "capacity": ""
+    },
+    {
+      "id": "8-2016-annual-collector-plate",
+      "name": "8″ 2016 Annual Collector Plate",
+      "category": "serving",
+      "subcategory": "Plates, Platters & Trays",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151428126_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "8″",
+      "capacity": ""
+    },
+    {
+      "id": "8-2023-annual-collector-plate",
+      "name": "8″ 2023 Annual Collector Plate",
+      "category": "serving",
+      "subcategory": "Plates, Platters & Trays",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151794177_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "8″",
+      "capacity": ""
+    },
+    {
+      "id": "12-annual-dessert-tray",
+      "name": "12″ 2023 Annual Dessert Tray",
+      "category": "serving",
+      "subcategory": "Plates, Platters & Trays",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "images/2023-annual-dessert-tray.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "12″",
+      "capacity": ""
+    },
+    {
+      "id": "sculpted-square-serving-tray",
+      "name": "12½″ Sculpted Square Serving Tray",
+      "category": "serving",
+      "subcategory": "Plates, Platters & Trays",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "images/12-half-sculpted-square-serving-tray.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "12½″",
+      "capacity": ""
+    },
+    {
+      "id": "16-half-oval-serving-platter",
+      "name": "16½″ Oval Serving Platter",
+      "category": "serving",
+      "subcategory": "Plates, Platters & Trays",
+      "qty": 1,
+      "origins": {
+        "Made in England": 1
+      },
+      "image": "images/16-half-oval-serving-platter.png",
+      "url": "https://www.replacements.com/",
+      "dimensions": "16½″",
+      "capacity": ""
+    },
+    {
+      "id": "17-oval-platter",
+      "name": "17″ Oval Platter",
+      "category": "serving",
+      "subcategory": "Plates, Platters & Trays",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151556171_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "17″",
+      "capacity": ""
+    },
+    {
+      "id": "cake-plate-server-missing-server",
+      "name": "Cake Plate & Server (missing server)",
+      "category": "serving",
+      "subcategory": "Plates, Platters & Trays",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/X/T/XT5960-X.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "christmas-tree-deviled-egg-tray",
+      "name": "Christmas Tree Deviled Egg Tray",
+      "category": "serving",
+      "subcategory": "Plates, Platters & Trays",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "images/christmas-tree-deviled-egg-tray.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "gravy-boat-with-underplate",
+      "name": "Gravy Boat with Underplate",
+      "category": "serving",
+      "subcategory": "Serving & Tableware",
+      "qty": 1,
+      "origins": {
+        "Made in England": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151497030_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "hostess-set-covered-butter-dish-2-s-p-shakers",
+      "name": "Hostess Set: covered butter dish, 2 S&P shakers",
+      "category": "serving",
+      "subcategory": "Serving & Tableware",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151417144_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "salad-servers",
+      "name": "Salad Servers",
+      "category": "serving",
+      "subcategory": "Serving & Tableware",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151496972_main.jpg",
+      "url": "https://www.spode.com/christmas-tree-set-of-2-salad-servers",
+      "dimensions": "9.25″",
+      "capacity": ""
+    },
+    {
+      "id": "round-covered-deep-dish-2-l",
+      "name": "Round Covered Casserole Dish, 2 L",
+      "category": "serving",
+      "subcategory": "Cookware & Kitchen Pieces",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/9/2/92764349532_main.jpg",
+      "url": "https://www.spode.com/christmas-tree-round-covered-casserole",
+      "dimensions": "",
+      "capacity": "2 L"
+    },
+    {
+      "id": "open-batter-jug-2-5-l",
+      "name": "Open Batter Jug, 2.5 L",
+      "category": "serving",
+      "subcategory": "Cookware & Kitchen Pieces",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "images/open-batter-jug-2-5-l.png",
+      "url": "https://www.replacements.com/",
+      "dimensions": "",
+      "capacity": "2.5 L"
+    },
+    {
+      "id": "7-spoon-rest",
+      "name": "7″ Spoon Rest",
+      "category": "serving",
+      "subcategory": "Cookware & Kitchen Pieces",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151779990_main.jpg",
+      "url": "https://www.spode.com/christmas-tree-tartan-spoon-rest",
+      "dimensions": "7″",
+      "capacity": ""
+    },
+    {
+      "id": "teapot-with-lid",
+      "name": "Teapot with Lid",
+      "category": "serving",
+      "subcategory": "Drink Service",
+      "qty": 1,
+      "origins": {
+        "Made in England": 1
+      },
+      "image": "images/teapot-with-lid.png",
+      "url": "https://www.etsy.com/listing/749853904/open-stock-spode-christmas-tree-full",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "coffee-pot-with-lid",
+      "name": "Coffee Pot with Lid",
+      "category": "serving",
+      "subcategory": "Drink Service",
+      "qty": 1,
+      "origins": {
+        "Made in England": 1
+      },
+      "image": "images/coffee-pot-with-lid.png",
+      "url": "https://www.etsy.com/listing/749853904/open-stock-spode-christmas-tree-full",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "glass-pitcher-96-oz",
+      "name": "Glass Pitcher, 96 oz",
+      "category": "serving",
+      "subcategory": "Drink Service",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "images/glass-pitcher-96-oz.png",
+      "url": "https://www.replacements.com/china-spode-christmas-tree-96-oz-glassware-pitcher/p/57626371",
+      "dimensions": "",
+      "capacity": "96 oz"
+    },
+    {
+      "id": "creamer",
+      "name": "Creamer",
+      "category": "serving",
+      "subcategory": "Drink Service",
+      "qty": 1,
+      "origins": {
+        "Made in England": 1
+      },
+      "image": "images/creamer.png",
+      "url": "https://www.etsy.com/listing/749853904/open-stock-spode-christmas-tree-full",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "sugar-bowl-with-lid",
+      "name": "Sugar Bowl with Lid",
+      "category": "serving",
+      "subcategory": "Drink Service",
+      "qty": 1,
+      "origins": {
+        "Made in England": 1
+      },
+      "image": "images/sugar-bowl-with-lid.png",
+      "url": "https://www.etsy.com/listing/749853904/open-stock-spode-christmas-tree-full",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "candlestick-holder",
+      "name": "Candlestick Holder",
+      "category": "decor",
+      "subcategory": "Home Decor",
+      "qty": 2,
+      "origins": {
+        "Made in England": 2
+      },
+      "image": "images/candlestick-holder.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "5½″",
+      "capacity": ""
+    },
+    {
+      "id": "8-square-vase",
+      "name": "8″ Square Vase",
+      "category": "decor",
+      "subcategory": "Home Decor",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151556485_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "8″",
+      "capacity": ""
+    },
+    {
+      "id": "pimpernel-christmas-tree-coasters-set-of-6",
+      "name": "Pimpernel Christmas Tree Coasters, set of 6",
+      "category": "decor",
+      "subcategory": "Home Decor",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "https://www.spode.com/media/catalog/product/7/4/749151913332_main.jpg",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "front-door-mat",
+      "name": "Front Door Mat",
+      "category": "decor",
+      "subcategory": "Home Decor",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "images/front-door-mat.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "oven-glove",
+      "name": "Oven Glove",
+      "category": "decor",
+      "subcategory": "Kitchen & Textiles",
+      "qty": 1,
+      "origins": {
+        "Not recorded": 1
+      },
+      "image": "images/oven-glove-clean.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "13½″ × 7½″",
+      "capacity": ""
+    },
+    {
+      "id": "pot-holder-trivet",
+      "name": "Pot Holder",
+      "category": "decor",
+      "subcategory": "Kitchen & Textiles",
+      "qty": 1,
+      "origins": {
+        "Not recorded": 1
+      },
+      "image": "images/pot-holder-clean.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "8½″ × 9½″",
+      "capacity": ""
+    },
+    {
+      "id": "green-kitchen-towel",
+      "name": "Green Kitchen Towel",
+      "category": "decor",
+      "subcategory": "Kitchen & Textiles",
+      "qty": 1,
+      "origins": {
+        "Not recorded": 1
+      },
+      "image": "images/green-kitchen-towel.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "16″ × 28″",
+      "capacity": ""
+    },
+    {
+      "id": "red-kitchen-towel",
+      "name": "Red Kitchen Towel",
+      "category": "decor",
+      "subcategory": "Kitchen & Textiles",
+      "qty": 1,
+      "origins": {
+        "Not recorded": 1
+      },
+      "image": "images/red-kitchen-towel.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "16″ × 28″",
+      "capacity": ""
+    },
+    {
+      "id": "white-kitchen-towel",
+      "name": "White Kitchen Towel",
+      "category": "decor",
+      "subcategory": "Kitchen & Textiles",
+      "qty": 1,
+      "origins": {
+        "Not recorded": 1
+      },
+      "image": "images/white-kitchen-towel.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "16″ × 28″",
+      "capacity": ""
+    },
+    {
+      "id": "travel-mug",
+      "name": "Travel Mug",
+      "category": "decor",
+      "subcategory": "Other",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "images/travel-mug-clean.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "pimpernel-nesting-tins-set-of-3",
+      "name": "Pimpernel Nesting Tins, set of 3",
+      "category": "decor",
+      "subcategory": "Other",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "images/pimpernel-nesting-tins-clean.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "paper-straws-cream-neutral-pack-of-8",
+      "name": "Paper Straws, cream/neutral, pack of 8",
+      "category": "decor",
+      "subcategory": "Other",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "images/paper-straws-cream-neutral-clean.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    },
+    {
+      "id": "paper-straws-red-plaid-pack-of-8",
+      "name": "Paper Straws, red plaid, pack of 8",
+      "category": "decor",
+      "subcategory": "Other",
+      "qty": 1,
+      "origins": {
+        "Made in China": 1
+      },
+      "image": "images/paper-straws-red-plaid-clean.png",
+      "url": "https://www.spode.com/",
+      "dimensions": "",
+      "capacity": ""
+    }
+  ]
+}
