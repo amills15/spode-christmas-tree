@@ -116,6 +116,12 @@ h2{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-size:32
 }
 @media (max-width:520px){
 }
+
+.category-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}.category-grid h3{font-family:"Cormorant Garamond",Georgia,serif;color:var(--green);font-size:25px;font-weight:500;margin:28px 0 10px}.compact-table{padding:14px;overflow:auto}.compact-table table{width:100%;border-collapse:collapse;font:13px/1.35 Arial,sans-serif}.compact-table th{text-align:left;color:var(--muted);font-size:10px;letter-spacing:1px;text-transform:uppercase;padding:9px 8px;border-bottom:1px solid var(--line)}.compact-table td{padding:10px 8px;border-bottom:1px solid #eee9df;vertical-align:top}.compact-table td:nth-child(2),.compact-table th:nth-child(2){white-space:nowrap}.image-placeholder{height:100%;width:100%;display:flex;align-items:center;justify-content:center;text-align:center;font:12px/1.35 Arial,sans-serif;color:var(--muted);background:#f7f1e5;padding:12px}.full-inventory-note{font:13px Arial,sans-serif;color:var(--muted)}
+@media(max-width:900px){.category-grid{grid-template-columns:1fr}.category-grid h3{margin-top:24px}}
+
+.catalog-list{padding:8px 12px 12px}.catalog-item{display:grid;grid-template-columns:68px 1fr auto;gap:12px;align-items:center;padding:10px 4px;border-bottom:1px solid #eee9df}.catalog-item:last-child{border-bottom:0}.catalog-thumb{width:68px;height:68px;border-radius:9px;background:#fffdf8;border:1px solid #eee6d8;display:flex;align-items:center;justify-content:center;overflow:hidden}.catalog-thumb img{width:100%;height:100%;object-fit:contain;padding:5px}.catalog-info{min-width:0}.catalog-name{font:15px/1.2 "Cormorant Garamond",Georgia,serif;color:var(--ink)}.catalog-origin{font:10px/1.3 Arial,sans-serif;color:var(--muted);margin-top:4px}.catalog-qty{font:17px/1 Arial,sans-serif;color:var(--green);white-space:nowrap}.catalog-qty small{font-size:9px;color:var(--muted);display:block;text-align:right;margin-top:4px}.catalog-fallback{font:10px/1.2 Arial,sans-serif;color:var(--muted);text-align:center;padding:5px}
+@media(max-width:600px){.catalog-item{grid-template-columns:58px 1fr auto;gap:10px}.catalog-thumb{width:58px;height:58px}.catalog-name{font-size:14px}.catalog-qty{font-size:16px}}
 </style>
 </head>
 <body>
@@ -130,6 +136,7 @@ h2{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-size:32
   <nav>
     <button class="active" data-section="place">Place Settings</button>
     <button data-section="serving">Serving Pieces</button>
+    <button data-section="decor">Decor &amp; Other</button>
     <button data-section="inventory">Full Inventory</button>
   </nav>
 </aside>
@@ -146,71 +153,29 @@ h2{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-size:32
 <section id="place" class="section active">
 <h2>Complete Place Settings</h2>
 <div class="cards">
-  <div class="milestone active" data-target="6"><div class="mlabel">6 people</div><div class="mrow"><div class="mvalue">0 / 6</div><div class="pct">12.5% covered</div></div><div class="bar"><i></i></div><div class="msmall">Est. to complete $0</div></div>
-  <div class="milestone" data-target="8"><div class="mlabel">8 people</div><div class="mrow"><div class="mvalue">0 / 8</div><div class="pct">12.5% covered</div></div><div class="bar"><i></i></div><div class="msmall">Est. to complete $0</div></div>
-  <div class="milestone" data-target="10"><div class="mlabel">10 people</div><div class="mrow"><div class="mvalue">0 / 10</div><div class="pct">12.5% covered</div></div><div class="bar"><i></i></div><div class="msmall">Est. to complete $0</div></div>
-  <div class="milestone" data-target="12"><div class="mlabel">12 people</div><div class="mrow"><div class="mvalue">0 / 12</div><div class="pct">12.5% covered</div></div><div class="bar"><i></i></div><div class="msmall">Est. to complete $0</div></div>
+  <div class="milestone active" data-target="6"><div class="mlabel">6 people</div><div class="mrow"><div class="mvalue">0 / 6</div><div class="pct">0% covered</div></div><div class="bar"><i></i></div><div class="msmall">Est. to complete $0</div></div>
+  <div class="milestone" data-target="8"><div class="mlabel">8 people</div><div class="mrow"><div class="mvalue">0 / 8</div><div class="pct">0% covered</div></div><div class="bar"><i></i></div><div class="msmall">Est. to complete $0</div></div>
+  <div class="milestone" data-target="10"><div class="mlabel">10 people</div><div class="mrow"><div class="mvalue">0 / 10</div><div class="pct">0% covered</div></div><div class="bar"><i></i></div><div class="msmall">Est. to complete $0</div></div>
+  <div class="milestone" data-target="12"><div class="mlabel">12 people</div><div class="mrow"><div class="mvalue">0 / 12</div><div class="pct">0% covered</div></div><div class="bar"><i></i></div><div class="msmall">Est. to complete $0</div></div>
 </div>
 
 <div class="grid">
 <div>
 <h2 id="setting-title">8-Person Place Setting</h2>
 <div class="panel">
-<div class="items">
-<button class="item-card" data-name="Dinner Plate">
-  <div class="item-image"><img src="https://www.spode.com/media/catalog/product/7/4/749151824720_crop.jpg" alt="Dinner Plate" loading="lazy"></div>
-  <div class="item-name">Dinner Plate</div>
-  <div class="item-qty">0</div>
-  <div class="item-target">needed for 8</div>
-</button><button class="item-card" data-name="Salad Plate">
-  <div class="item-image"><img src="https://www.spode.com/media/catalog/product/0/9/092764300922_main.jpg" alt="Salad Plate" loading="lazy"></div>
-  <div class="item-name">Salad Plate</div>
-  <div class="item-qty">0</div>
-  <div class="item-target">needed for 8</div>
-</button><button class="item-card" data-name="Soup Bowl">
-  <div class="item-image"><img src="https://www.spode.com/media/catalog/product/7/4/749151824782_main.jpg" alt="Soup Bowl" loading="lazy"></div>
-  <div class="item-name">Soup Bowl</div>
-  <div class="item-qty">0</div>
-  <div class="item-target">needed for 8</div>
-</button><button class="item-card" data-name="Bread &amp; Butter Plate">
-  <div class="item-image"><img src="https://www.spode.com/media/catalog/product/7/4/749151824768_main.jpg" alt="Bread &amp; Butter Plate" loading="lazy"></div>
-  <div class="item-name">Bread &amp; Butter Plate</div>
-  <div class="item-qty">0</div>
-  <div class="item-target">needed for 8</div>
-</button><button class="item-card" data-name="Cup / Mug">
-  <div class="item-image"><img src="https://www.spode.com/media/catalog/product/7/4/749151824850_main_1.jpg" alt="Cup / Mug" loading="lazy"></div>
-  <div class="item-name">Cup / Mug</div>
-  <div class="item-qty">0</div>
-  <div class="item-target">needed for 8</div>
-</button><button class="item-card" data-name="Saucer">
-  <div class="item-image"><img src="https://www.spode.com/media/catalog/product/7/4/749151831063_crop.jpg" alt="Saucer" loading="lazy"></div>
-  <div class="item-name">Saucer</div>
-  <div class="item-qty">0</div>
-  <div class="item-target">needed for 8</div>
-</button><button class="item-card" data-name="Water Glass">
-  <div class="item-image"><img src="https://www.spode.com/media/catalog/product/7/4/749151739123_main.jpg" alt="Water Glass" loading="lazy"></div>
-  <div class="item-name">Water Glass</div>
-  <div class="item-qty">0</div>
-  <div class="item-target">needed for 8</div>
-</button><button class="item-card" data-name="Wine Glass">
-  <div class="item-image"><img src="https://www.spode.com/media/catalog/product/0/9/092764339908_main.jpg" alt="Wine Glass" loading="lazy"></div>
-  <div class="item-name">Wine Glass</div>
-  <div class="item-qty">12</div>
-  <div class="item-target">needed for 8</div>
-</button>
-</div>
-<div class="callout" id="callout">Your wine glasses are already covered for 8 people. The remaining pieces will be added as you catalog your collection; replacement estimates will appear as prices are cataloged.</div>
+<div class="items" id="placeItems"></div>
+<div class="callout" id="callout">Your stemmed wine glasses are already covered for 8 people. The additional place-setting pieces are shown here as part of your collection.</div>
 </div>
 </div>
 <div>
 <h2>Collection at a Glance</h2>
 <div class="panel metrics">
-<div class="metric"><span>Total pieces cataloged</span><strong id="total">12</strong></div>
-<div class="metric"><span>Place-setting pieces</span><strong>12</strong></div>
-<div class="metric"><span>Serving pieces</span><strong>0</strong></div>
-<div class="metric"><span>Made in England</span><strong>0</strong></div>
-<div class="metric"><span>Made in China</span><strong>0</strong></div>
-<div class="metric"><span>Origin not cataloged</span><strong>12</strong></div>
+<div class="metric"><span>Total pieces cataloged</span><strong id="total">0</strong></div>
+<div class="metric"><span>Place-setting pieces</span><strong id="placeCount">0</strong></div>
+<div class="metric"><span>Serving pieces</span><strong id="servingCount">0</strong></div>
+<div class="metric"><span>Made in England</span><strong id="englandCount">0</strong></div>
+<div class="metric"><span>Made in China</span><strong id="chinaCount">0</strong></div>
+<div class="metric"><span>Origin not cataloged</span><strong id="unknownCount">0</strong></div>
 </div>
 </div>
 </div>
@@ -218,48 +183,128 @@ h2{font-family:"Cormorant Garamond",Georgia,"Times New Roman",serif;font-size:32
 
 <section id="serving" class="section">
 <h2>Serving Pieces</h2>
-<div class="panel"><p style="font:15px Arial,sans-serif;color:var(--muted)">Serving platters, bowls, butter dishes, salt &amp; pepper, and other table pieces will live here without affecting place-setting calculations.</p></div>
+<div id="servingCatalog" class="category-grid"></div>
+</section>
+
+<section id="decor" class="section">
+<h2>Decor &amp; Other</h2>
+<div id="decorCatalog" class="category-grid"></div>
 </section>
 
 <section id="inventory" class="section">
 <h2>Full Inventory</h2>
-<div class="panel"><p style="font:15px Arial,sans-serif;color:var(--muted)">Every piece you own will be cataloged here, including duplicates, extras, glassware, serving pieces, and manufacture-origin information where known.</p></div>
+<div class="panel compact-table"><table><thead><tr><th>Item</th><th>Category</th><th>Qty</th><th>Origin</th></tr></thead><tbody id="inventoryBody"></tbody></table></div>
 </section>
 
-<div class="footer">Current collection data: 12 Christmas Tree all-purpose wine glasses. All other quantities are currently zero and will be populated as the collection is inventoried.</div>
+<div class="footer">Inventory reflects the collection physically counted and cataloged for this version of the app.</div>
 </main>
 </div>
 <script>
-const collection=[{"name":"Dinner Plate","qty":0,"image":"https://www.spode.com/media/catalog/product/7/4/749151824720_crop.jpg"},{"name":"Salad Plate","qty":0,"image":"https://www.spode.com/media/catalog/product/0/9/092764300922_main.jpg"},{"name":"Soup Bowl","qty":0,"image":"https://www.spode.com/media/catalog/product/7/4/749151824782_main.jpg"},{"name":"Bread & Butter Plate","qty":0,"image":"https://www.spode.com/media/catalog/product/7/4/749151824768_main.jpg"},{"name":"Cup / Mug","qty":0,"image":"https://www.spode.com/media/catalog/product/7/4/749151824850_main_1.jpg"},{"name":"Saucer","qty":0,"image":"https://www.spode.com/media/catalog/product/7/4/749151831063_crop.jpg"},{"name":"Water Glass","qty":0,"image":"https://www.spode.com/media/catalog/product/7/4/749151739123_main.jpg"},{"name":"Wine Glass","qty":12,"image":"https://www.spode.com/media/catalog/product/0/9/092764339908_main.jpg"}];
-const totalPlaceSettingPieces=collection.length;
+let inventory = {items: []};
 
+function originLabel(entry){
+  const parts=Object.entries(entry.origins||{}).filter(([k,v])=>v>0);
+  if(!parts.length) return 'Origin not cataloged';
+  return parts.map(([k,v])=>`${k}${parts.length>1?' ('+v+')':''}`).join(' · ');
+}
+function escapeHtml(s){
+  return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+}
+function qtyText(entry){
+  const q=entry.qty;
+  const isSet=/set of|pack of/i.test(entry.name);
+  return isSet ? `${q} <small>${/pack of/i.test(entry.name)?'pack':'set'}</small>` : `${q}`;
+}
+function getItems(cat){return (inventory.items||[]).filter(x=>x.category===cat)}
+function getEntry(id){return (inventory.items||[]).find(x=>x.id===id)||{qty:0,origins:{'Origin not cataloged':0}}}
+
+function renderPlaceItems(target){
+  const box=document.getElementById('placeItems');
+  box.innerHTML=getItems('place').map(x=>{
+    const e=getEntry(x.id), q=e.qty, need=Math.max(0,target-q);
+    return `<div class="item-card" data-id="${x.id}">
+      <div class="item-image"><img src="${x.image}" alt="${escapeHtml(x.name)}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\'image-placeholder\'>Spode<br>Christmas Tree</div>'"></div>
+      <div class="item-name">${escapeHtml(x.name)}</div>
+      <div class="item-qty">${q}</div>
+      <div class="item-target">${q>=target?'covered':'need '+need+' more'}</div>
+    </div>`;
+  }).join('');
+}
 function coverageFor(target){
-  const required=target*totalPlaceSettingPieces;
-  const covered=collection.reduce((sum,x)=>sum+Math.min(x.qty,target),0);
-  return Math.min(100, Math.round((covered/required)*1000)/10);
+  const q=id=>getEntry(id).qty;
+  const cup=Math.min(Math.max(q('teacup'),q('cafe-mug'),q('tom-jerry-mug')),target);
+  const wine=Math.min(Math.max(q('stemmed-wine-glass'),q('stemless-wine-glass')),target);
+  const values=[Math.min(q('dinner-plate'),target),Math.min(q('salad-dessert-plate'),target),Math.min(q('soup-plate'),target),Math.min(q('bread-butter-plate'),target),cup,Math.min(q('saucer'),target),Math.min(q('water-glass'),target),wine];
+  return Math.round(values.reduce((a,b)=>a+b,0)/(target*8)*1000)/10;
 }
 function completeSettings(target){
-  return Math.min(...collection.map(x=>Math.floor(x.qty/target)));
+  const q=id=>getEntry(id).qty;
+  const cup=Math.max(q('teacup'),q('cafe-mug'),q('tom-jerry-mug'));
+  const wine=Math.max(q('stemmed-wine-glass'),q('stemless-wine-glass'));
+  return Math.min(...[q('dinner-plate'),q('salad-dessert-plate'),q('soup-plate'),q('bread-butter-plate'),cup,q('saucer'),q('water-glass'),wine].map(qty=>Math.floor(qty/target)));
 }
 function update(target){
   document.querySelectorAll('.milestone').forEach(c=>{
     c.classList.toggle('active',+c.dataset.target===target);
-    const complete=completeSettings(+c.dataset.target);
-    const pct=coverageFor(+c.dataset.target);
+    const complete=completeSettings(+c.dataset.target), pct=coverageFor(+c.dataset.target);
     c.querySelector('.mvalue').textContent=complete+' / '+c.dataset.target;
-    c.querySelector('.pct').textContent=pct.toFixed(pct % 1 ? 1 : 0)+'% covered';
+    c.querySelector('.pct').textContent=pct.toFixed(pct%1?1:0)+'% covered';
     c.querySelector('.bar i').style.width=pct+'%';
   });
   document.getElementById('setting-title').textContent=target+'-Person Place Setting';
-  document.querySelectorAll('.item-card').forEach((card,i)=>{
-    const q=collection[i].qty;
-    card.querySelector('.item-qty').textContent=q;
-    card.querySelector('.item-target').textContent=q>=target?'covered':'need '+(target-q)+' more';
-  });
-  const wine=collection.find(x=>x.name==='Wine Glass')?.qty||0;
+  renderPlaceItems(target);
+  const wine=getEntry('stemmed-wine-glass').qty;
   document.getElementById('callout').textContent=wine>=target
-    ? 'Your wine glasses are already covered for '+target+' people. The remaining pieces will be added as you catalog your collection; replacement estimates will appear as prices are cataloged.'
-    : 'You need '+(target-wine)+' more wine glasses for '+target+' people. The remaining pieces will be added as you catalog your collection; replacement estimates will appear as prices are cataloged.';
+    ? 'Your stemmed wine glasses are already covered for '+target+' people. The additional place-setting pieces are shown here as part of your collection.'
+    : 'You need '+(target-wine)+' more stemmed wine glasses for '+target+' people. The additional place-setting pieces are shown here as part of your collection.';
+}
+function renderCatalog(cat,rootId){
+  const root=document.getElementById(rootId);
+  const subs=[...new Set(getItems(cat).map(x=>x.sub))];
+  root.innerHTML=subs.map(sub=>{
+    const rows=getItems(cat).filter(x=>x.sub===sub).map(x=>{
+      const e=getEntry(x.id);
+      return `<div class="catalog-item">
+        <div class="catalog-thumb"><img src="${x.image}" alt="${escapeHtml(x.name)}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\'catalog-fallback\'>Spode<br>Christmas Tree</div>'"></div>
+        <div class="catalog-info"><div class="catalog-name">${escapeHtml(x.name)}</div><div class="catalog-origin">${escapeHtml(originLabel(e))}</div></div>
+        <div class="catalog-qty">${qtyText(e)}</div>
+      </div>`;
+    }).join('');
+    return `<div><h3>${escapeHtml(sub)}</h3><div class="panel catalog-list">${rows}</div></div>`;
+  }).join('');
+}
+function renderMetrics(){
+  const entries=(inventory.items||[]);
+  const total=entries.reduce((s,x)=>s+x.qty,0);
+  const place=entries.filter(x=>x.cat==='place').reduce((s,x)=>s+x.qty,0);
+  const serving=entries.filter(x=>x.cat==='serving').reduce((s,x)=>s+x.qty,0);
+  let eng=0,chi=0,unknown=0;
+  entries.forEach(x=>Object.entries(x.origins||{}).forEach(([origin,n])=>{
+    if(origin==='Made in England') eng+=n;
+    else if(origin==='Made in China') chi+=n;
+    else unknown+=n;
+  }));
+  document.getElementById('total').textContent=total;
+  document.getElementById('placeCount').textContent=place;
+  document.getElementById('servingCount').textContent=serving;
+  document.getElementById('englandCount').textContent=eng;
+  document.getElementById('chinaCount').textContent=chi;
+  document.getElementById('unknownCount').textContent=unknown;
+  document.getElementById('inventoryBody').innerHTML=entries.map(x=>`<tr><td>${escapeHtml(x.name)}</td><td>${x.cat==='place'?'Place Setting':x.cat==='serving'?'Serving Piece':'Decor & Other'}</td><td>${x.qty}</td><td>${escapeHtml(originLabel(x))}</td></tr>`).join('');
+}
+async function loadInventory(){
+  try{
+    const res=await fetch('./data/inventory.json',{cache:'no-store'});
+    if(!res.ok) throw new Error('Inventory file could not be loaded');
+    inventory=await res.json();
+    renderMetrics();
+    renderCatalog('serving','servingCatalog');
+    renderCatalog('decor','decorCatalog');
+    update(8);
+  }catch(err){
+    document.getElementById('placeItems').innerHTML='<div class="callout">Inventory data could not be loaded. Open this app through GitHub Pages so it can load <strong>data/inventory.json</strong>.</div>';
+    console.error(err);
+  }
 }
 document.querySelectorAll('.milestone').forEach(c=>c.onclick=()=>update(+c.dataset.target));
 document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
@@ -268,7 +313,8 @@ document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{
   document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
   document.getElementById(b.dataset.section).classList.add('active');
 });
-update(8);
+loadInventory();
 </script>
+
 </body>
 </html>
